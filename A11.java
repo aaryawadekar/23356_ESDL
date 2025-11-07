@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class A11_1 {
+public class A11 {
     public static int longestSubarray(int[] arr, int k) {
         Map<Integer, Integer> map = new HashMap<>();
         int maxLength = 0;
